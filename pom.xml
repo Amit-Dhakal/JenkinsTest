@@ -16,6 +16,8 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
+		<start-class>com.example.JenkinsTestFile.JenkinsTestFileApplication
+		</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -36,6 +38,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
